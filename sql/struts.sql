@@ -1,8 +1,8 @@
 set names utf8;
 set foreign_key_checks = 0;
-drop database if exists logindb_suzuki;
-create database logindb_suzuki;
-use logindb_suzuki;
+drop database if exists logindb2_suzuki;
+create database logindb2_suzuki;
+use logindb2_suzuki;
 
 create table user(
 id int,
